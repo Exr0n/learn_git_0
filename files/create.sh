@@ -6,4 +6,4 @@ echo "What is your id?"
 read id
 echo "What is your age?"
 read age
-printf "name=$name\nid=$id\nage=$age" > "$name.txt"
+printf "name=\"$name\"\nid=\"$id\"\nage=\"$age\"" > "$name.inf"
